@@ -92,7 +92,21 @@ button {
     background-color: rgb(190, 89, 89);
 }
 
+.hero-section-text,
+.hero-section-img {
+    flex: 1 1 400px;
+    height: 500px;
+}
+
 .hero-section-text {
+    background-color: aquamarine;
+}
+
+.hero-section-img {
+    background-color: pink;
+}
+
+/* .hero-section-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,7 +128,7 @@ button {
 .hero-section-img img {
     width: 553px;
     height: 582.81298828125px;
-}
+} */
 
 
 
