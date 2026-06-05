@@ -174,8 +174,187 @@ button {
     margin-top: 54.83px;
 }
 
+/* hero section css end  */
+
+/* green section css start */
 
 
+.container-search {
+    width: 89%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-1);
+    margin-top: 86px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+/* .container-search .text {
+    width: 26%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container-search p {
+    width: 245px;
+    height: 56px;
+    font-size: 24.6px;
+    font-weight: 600;
+    font-style: Semibold;
+    line-height: 28px;
+    color: var(--primary-2);
+}
+
+.container-search .search {
+    width: 74%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search input {
+    width: 60%;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4.39px;
+    margin-left: 20px;
+}
+
+.search input::placeholder {
+    color: #DADADA;
+}
+
+.search button {
+    width: 250px;
+    height: 67px;
+    border-radius: 4.39px;
+    margin-bottom: 48px;
+    margin-right: 28px;
+    background-color: #000000;
+
+}
+
+/* green section end end */
+
+
+.work-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 87.91px;
+    background-color: cadetblue;
+}
+
+.work-section h2 {
+    margin-top: 20px;
+    font-size: 43.39px;
+    font-weight: 800;
+    line-height: 50.35px;
+}
+
+.work-section h2 span {
+    color: var(--primary-1);
+}
+
+.work-section p {
+    width: 45%;
+    height: 96px;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #9E9DA2;
+}
+
+.item-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.item-container .item1 {
+    width: 33.33%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.item1 .text1 {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+
+.item1 .text1 img {
+    width: 60.82px;   
+}
+
+.item1 .text1 h4 {
+
+}
+
+.item1 .text2 {
+    width: 100%;
+    height: 50%;
+    background-color: plum;
+}
+
+.item-container .item2 {
+    width: 33.33%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+}
+
+.item2 .circle {
+    width: 400px;
+    height: 400px;
+    background-color: var(--primary-1);
+    border-radius: 50%;
+
+}
+
+.item-container .item3 {
+    width: 33.33%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+}
+
+
+.item3 .text1 {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+}
+
+.item3 .text2 {
+    width: 100%;
+    height: 50%;
+    background-color: palevioletred;
+}
 
 
 
@@ -291,11 +470,26 @@ button {
   .btn-box {
     max-width: 58%;
     flex-wrap: wrap;
-    /* display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 35px; */
-}
+    display: flex;
+    justify-content: center;
+  }
+
+   .container-search {
+    
+  }
+
+   .container-search p {
+    margin-top: 5%;
+  }
+
+  .container-search .search {
+    width: 95%;
+  }
+
+  .container-search .search input {
+    width: 45%;
+  }
+
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
@@ -317,7 +511,7 @@ button {
     max-width: 40%;
     display: flex;
     flex-wrap: wrap;
-}
+  }
 
   .hero-section-img {
     width: 100%;
@@ -326,5 +520,22 @@ button {
   .hero-section-img img {
     width: 100%;
     height: auto;
+  }
+
+  .container-search {
+    width: 100%;
+  }
+
+  .container-search p {
+    margin-top: 10%;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search input {
+    margin-top: 10%;
   }
 }
